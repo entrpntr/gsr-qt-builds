@@ -9,7 +9,7 @@
 git clone git://code.qt.io/qt/qt5.git
 cd qt5
 git checkout v5.15.0
-perl init-repository --module-subset=qtbase --branch
+perl init-repository --module-subset=qtbase,qttools --branch
 
 # If updating the git repository, the above steps would be more like:
 # cd qt5
