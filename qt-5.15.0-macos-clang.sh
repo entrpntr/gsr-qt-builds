@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# These steps should reproduce the build on a macOS machine.
+
 # Prereqs
 #   - XCode command line tools installed
 
@@ -15,7 +17,7 @@ perl init-repository --module-subset=qtbase,qttools --branch
 # cd qt5
 # git fetch --tags
 # git checkout v5.15.0
-# perl init-repository --module-subset=qtbase --branch -f
+# perl init-repository --module-subset=qtbase,qttools --branch -f
 
 cd ..
 mkdir qt-5.15.0-static

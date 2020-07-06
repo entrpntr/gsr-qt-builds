@@ -1,5 +1,7 @@
 # gsr-qt-builds
 
-This is an attempt to document the process of building Qt from source to create (reasonably) lightweight builds. These builds enable using recent versions of Qt in official releases of [Gambatte-Speedrun](https://github.com/pokemon-speedrunning/gambatte-speedrun) without creating excessively large executables.
+This repository contains prebuilt Qt binaries intended to be used in building the official releases of [Gambatte-Speedrun](https://github.com/pokemon-speedrunning/gambatte-speedrun). The main goals are: (1) enable building (reasonably) lightweight GSR binaries with the most recent Qt versions, (2) provide a central access point for these Qt binaries (building Qt from source can be a bit complicated and time-consuming). The repository contains scripts that document the process of building Qt from source, so that others may reproduce the builds.
 
-The builds for GSR may require occasional updates as new Qt versions are released, or more of its functionality gets used. These builds may not be generally useful, since only the subset of modules used in GSR are built, and no debug versions of libraries are included. The general process may still be instructive in showing how Qt-based projects can use a minimalistic Qt by building from source.
+The prebuilt binaries (available [here](https://github.com/pokemon-speedrunning/gsr-qt-builds/releases)) may not be useful for general purposes, since only the subset of modules used by GSR are built, and no debug versions of libraries are included. The general process may still be instructive in showing how Qt-based projects can use a minimalist Qt by building from source.
+
+These builds may require occasional updates as new Qt versions are released, or as more Qt features/modules are used in GSR.
